@@ -1,0 +1,40 @@
+.navmenu {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #ccc;
+}
+
+.navmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8rem;
+}
+
+.navmenu li {
+  font-family: Arial, sans-serif;
+}
+
+.navmenu a {
+  text-decoration: none;
+  color: #006666;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 20px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.navmenu .active a {
+  background-color: #ffffff;
+  color: #006666;
+  border-radius: 4px;
+}
+
+.navmenu a:hover {
+  background-color: #004d4d;
+  color: #ffffff;
+}

@@ -63,6 +63,36 @@ El proyecto utiliza componentes PHP para facilitar la reutilización de código 
 
 ## 📂 Estructura del Proyecto
 
+```
+└── 📁CARE_U_SPA
+    └── 📁components
+        └── db_connection.php
+        └── footer.php
+        └── navmenu.php
+        └── navtop.php
+        └── submit_request.php
+    └── 📁css
+        └── contact.css
+        └── footer.css
+        └── index.css
+        └── navmenu.css
+        └── navtop.css
+        └── service.css
+    └── 📁db
+        └── db_spa_careU.sql
+    └── 📁img
+        └── foto_slide.jpg
+        └── foto1.jpg
+        └── foto2.jpg
+        └── foto3.jpg
+        └── logo.png
+    └── 📁js
+        └── contact.js
+    └── contact.php
+    └── index.php
+    └──service.php
+```
+
 Asegúrate de que las credenciales de la base de datos en `components/db_connection.php` coincidan con tu configuración local:
 
 ```php

@@ -31,7 +31,7 @@ Este proyecto es un sitio web para un spa llamado **Care U Spa**. El sitio inclu
 Clona este repositorio en el directorio raíz de tu servidor web (por ejemplo, `htdocs` en XAMPP):
 
 ```bash
-git clone https://github.com/tu-usuario/CARE_U_SPA.git
+git clone https://github.com/DARKTOTEM2703/CARE_U_SPA.git
 ```
 
 ### 2. **Configurar la Base de Datos**
